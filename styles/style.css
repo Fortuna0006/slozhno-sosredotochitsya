@@ -1,5 +1,101 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
-  /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
+  background-position: center;
+  background-attachment: fixed;
+  background-image: url(../images/cover-image-dark.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.corner-decor {
+}
+
+.header {
+  min-height: 1024px;
+  min-width: 768px;
+  display: grid;
+}
+
+.header-cover {
+  z-index: -1;
+}
+
+.header_title{
+font-size:157px;
+font-family: "IBM Plex Mono", sans-serif;
+font-weight: 700;
+line-height: 129.53px;
+color: #DB00FF;
+text-shadow: 4px 4px #FF0070;
+}
+
+.decorated-zone {
+
+}
+
+.title-decor {
+}
+
+.header__theme-menu {
+  display: flex;
+  margin:auto;
+}
+
+.header__theme-menu-list {
+}
+
+.header__theme-menu-item {
+}
+
+.header__theme-menu-button {
+}
+
+.header__theme-menu-button_type_light {
+}
+
+.header__theme-menu-button_active {
+  pointer-events: none;
+}
+
+.header__theme-menu-button_type_auto {
+}
+
+.header__theme-menu-button_type_dark {
+}
+
+.main {
+
+}
+
+.section {
+  
+}
+
+.title_section {
+
+}
+
+.container-text {
+
+}
+
+.title_text{
+
+}
+
+.text {
+
+}
+
+.image {
+
+}
+
+.container-image{
+
+}
+
+.footer {
+  min-height: 100%;
 }
