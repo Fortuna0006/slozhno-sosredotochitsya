@@ -1,5 +1,12 @@
 :root {
   /* для темной темы*/
+  --background-text-color: #ff0070;
+  --main-color: #f1b2ce;
+  --accent-color: #000028;
+  --title-color: #db00ff;
+  --title-shadow: #ff0070;
+  --background-image: url(./images/cover-image-dark.png);
+  --title-section-color: #ff0070;
 }
 /*
   Переменные для вашего проекта
