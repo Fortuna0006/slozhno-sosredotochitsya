@@ -1,20 +1,5 @@
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #000028;
-    --background-text-color: #ff0070;
-    --main-color: #f1b2ce;
-    --accent-color: #000028;
-    --title-color: #db00ff;
-    --title-shadow: #ff0070;
-    --title-section-color: #ff0070;
-    --bg-img: url(../images/cover-image-dark.png);
-
   }
-
-  .header_rec {
-
-  }
-}
 
 .page.theme_dark {
   --background-color: #000028;
