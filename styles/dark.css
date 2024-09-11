@@ -1,4 +1,6 @@
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme:dark) {
+  :root{
+  }
   }
 
 .page.theme_dark {
@@ -10,4 +12,8 @@
   --title-shadow: #ff0070;
   --title-section-color: #ff0070;
   background-image: url(../images/cover-image-dark.png);
+
+  .page.theme_dark .header-rec {
+    display: block;
+  }
 }
