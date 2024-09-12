@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="./styles/light.css" />
     <title>Сложно сосредоточиться</title>
     <link rel="icon" href="./images/favicon.ico" size="any" />
-    <link rel="icon" href="./images/favicon.svg">
+    <link rel="icon" href="./images/favicon.svg" />
   </head>
   <body class="page">
     <header class="header decor-zone">
-      <span class="header_rec" aria-hidden="true">rec</span>
+      <div class="header_hidn-block" aria-hidden="true"></div>
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -56,7 +56,9 @@
     <main class="main">
       <section class="section section-about">
         <div class="container_title-section-about">
-          <h2 class="title_section">Почему сосредоточиться так сложно</h2>
+          <h2 class="title_section title_section-about">
+            Почему сосредоточиться так сложно
+          </h2>
         </div>
         <div class="container-text">
           <p class="title_text">Многозадачность</p>
@@ -131,10 +133,10 @@
         </div>
       </section>
       <section class="section section-recomendetion">
-          <h2 class="title_section section-recomendetion_title">
-            Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
-            секунд)
-          </h2>
+        <h2 class="title_section section-recomendetion_title">
+          Как концентрироваться лучше, чем золотая рыбка (то есть дольше трёх
+          секунд)
+        </h2>
         <p class="title_text section-recomendetion_text-title">
           5 простых (на самом деле не очень) советов
         </p>
@@ -154,7 +156,9 @@
           </p>
         </div>
         <div class="container-text section-recomendetion_conteiner-two">
-          <p class="title_text section-recomendetion_title-text">Включите музыку</p>
+          <p class="title_text section-recomendetion_title-text">
+            Включите музыку
+          </p>
           <p class="text">
             Но не любую, и не любимую. Любимая может быть связана с сильными
             положительными эмоциями, которые тоже очень сильно отвлекают.
@@ -163,7 +167,9 @@
           </p>
         </div>
         <div class="container-text section-recomendetion_conteiner-three">
-          <p class="title_text section-recomendetion_title-text">Прогуляйтесь</p>
+          <p class="title_text section-recomendetion_title-text">
+            Прогуляйтесь
+          </p>
           <p class="text">
             Или даже пробегитесь. Лучше найти парк или лес: один эксперимент
             <a
@@ -180,7 +186,9 @@
           </p>
         </div>
         <div class="container-text section-recomendetion_conteiner-four">
-          <p class="title_text section-recomendetion_title-text">Хорошо ешьте</p>
+          <p class="title_text section-recomendetion_title-text">
+            Хорошо ешьте
+          </p>
           <p class="text">
             Мы — не ваша бабушка, но это правда важно. Выбирайте продукты,
             которые препятствуют резким скачкам сахара в крови. Например, с
@@ -198,53 +206,43 @@
           </p>
         </div>
       </section>
-
-      <section class="section section-gallery">
-        <div class="container-section-gallery_title">
-        <h2 class="title_text section-gallery_title">А можно в картинках?</h2>
-      </div>
-        <div class="container-image container-image-1">
-          <img
-            class="image"
-            src="./images/sunset.png"
-            alt="Закат на фоне гор, мимо
-        пролетают чайки, море омывает берег, облака фиолетового оттенка плывут"
-            loading="lazy"
-          />
-        </div>
-        <div class="container-image container-image-2">
-          <img
-            class="image"
-            src="./images/ice-cream.png"
-            alt="Четыре шарика морженого
-        в креманке, один из шариков в виде котика улыбается"
-            loading="lazy"
-          />
-        </div>
-        <div class="container-image container-image-3">
-          <img
-            class="image"
-            src="./images/tape.png"
-            alt="Парящая фиолетовая кассета на фиолетовом фоне"
-            loading="lazy"
-          />
-        </div>
-        <div class="container-image container-image-4">
-          <img
-            class="image"
-            src="./images/books.png"
-            alt="Стопка разных книг, с чашкой кофе на верху на фиолетовом фоне"
-            loading="lazy"
-          />
-        </div>
-        <div class="container-image container-image-5">
-          <img
-            class="image"
-            src="./images/street.png"
-            alt="Проспект улицы с японскими мотивами в фиолетовом оттенке"
-            loading="lazy"
-          />
-        </div>
+      <section class="content_gallery">
+        <h2 class="content_header title-decor title_section">
+          А можно в картинках?
+        </h2>
+        <img
+          class="content_gallery-img sunset"
+          src="./images/sunset.png"
+          alt="Закат на фоне гор, мимо
+    пролетают чайки, море омывает берег, облака фиолетового оттенка плывут"
+          loading="lazy"
+        />
+        <img
+          class="content_gallery-img ice-cream"
+          src="./images/ice-cream.png"
+          alt="Четыре шарика морженого
+    в креманке, один из шариков в виде котика улыбается"
+          loading="lazy"
+        />
+        <img
+          class="content_gallery-img tape"
+          src="./images/tape.png"
+          alt="Парящая фиолетовая кассета на фиолетовом фоне"
+          loading="lazy"
+        />
+        <img
+          class="content_gallery-img books"
+          src="./images/books.png"
+          alt="Стопка разных книг, с чашкой кофе на верху на фиолетовом фоне"
+          loading="lazy"
+        />
+        <img
+          class="content_gallery-img street"
+          src="./images/street.png"
+          alt="Проспект улицы с японскими мотивами в фиолетовом оттенке"
+          loading="lazy"
+        />
+      </section>
     </main>
     <footer class="footer footer-dec">
       <div class="container_footer_title">

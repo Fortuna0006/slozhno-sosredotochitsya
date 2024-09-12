@@ -7,4 +7,6 @@
   --title-shadow: #ff0070;
   --title-section-color: #ff0070;
   --bg-img: url(../images/cover-image-dark.png);
+  --theme-hidn-rec: 'REC';
+  --theme-hidn: '';
 }

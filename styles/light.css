@@ -1,17 +1,14 @@
-
-@media (prefers-color-scheme:light) {
+@media (prefers-color-scheme: light) {
   :root {
     --background-text-color: #ff8dcb;
     --main-color: #353430;
     --accent-color: #353430;
     --title-color: #ffc2e6;
-    --title-shadow:#FF8DCB;
-    --title-section-color:#353430;
+    --title-shadow: #ff8dcb;
+    --title-section-color: #353430;
     --bg-img: url(../images/cover-image-light.png);
-  }
-
-  .header_rec {
-    display: none;
+    --theme-hidn-rec: none;
+    --theme-hidn: none;
   }
 }
 
@@ -20,11 +17,9 @@
   --main-color: #353430;
   --accent-color: #353430;
   --title-color: #ffc2e6;
-  --title-shadow:#FF8DCB ;
-  --title-section-color:#353430;
+  --title-shadow: #ff8dcb;
+  --title-section-color: #353430;
   --bg-img: url(../images/cover-image-light.png);
-}
-
-.page.theme_light .header-rec {
-  display: none;
+  --theme-hidn-rec: none;
+  --theme-hidn: none;
 }

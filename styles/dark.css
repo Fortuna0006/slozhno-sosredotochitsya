@@ -12,8 +12,6 @@
   --title-shadow: #ff0070;
   --title-section-color: #ff0070;
   background-image: url(../images/cover-image-dark.png);
-
-  .page.theme_dark .header-rec {
-    display: block;
-  }
+  --theme-hidn-rec: 'REC';
+  --theme-hidn: '';
 }
