@@ -1,7 +1,5 @@
-@media (prefers-color-scheme:dark) {
-  :root{
-  }
-  }
+@media (prefers-color-scheme: dark) {
+}
 
 .page.theme_dark {
   --background-color: #000028;
@@ -12,6 +10,8 @@
   --title-shadow: #ff0070;
   --title-section-color: #ff0070;
   background-image: url(../images/cover-image-dark.png);
-  --theme-hidn-rec: 'REC';
-  --theme-hidn: '';
+  --theme-hidn-rec: "REC";
+  --theme-hidn: "";
+  --bg-clr: #000028;
+  --button-clr: rgb(255, 0, 112, 0.4);
 }

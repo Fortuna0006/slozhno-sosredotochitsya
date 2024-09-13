@@ -9,6 +9,8 @@
     --bg-img: url(../images/cover-image-light.png);
     --theme-hidn-rec: none;
     --theme-hidn: none;
+    --bg-clr: #fff1f7;
+    --button-clr: rgb(53, 52, 48, 0.4);
   }
 }
 
@@ -22,4 +24,6 @@
   --bg-img: url(../images/cover-image-light.png);
   --theme-hidn-rec: none;
   --theme-hidn: none;
+  --bg-clr: #fff1f7;
+  --button-clr: rgb(53, 52, 48, 0.4);
 }

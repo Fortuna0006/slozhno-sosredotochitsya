@@ -7,6 +7,8 @@
   --title-shadow: #ff0070;
   --title-section-color: #ff0070;
   --bg-img: url(../images/cover-image-dark.png);
-  --theme-hidn-rec: 'REC';
-  --theme-hidn: '';
+  --theme-hidn-rec: "REC";
+  --theme-hidn: "";
+  --bg-clr: #000028;
+  --button-clr: rgb(255, 0, 112, 0.4);
 }
