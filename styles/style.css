@@ -367,15 +367,9 @@
     max-inline-size: 230px;
   }
 
-  .container_title-section-items {
-    padding-bottom: 19px;
-    max-inline-size: 200px;
-  }
-
   .title_items {
     padding-bottom: 19px;
     max-inline-size: 200px;
-    max-block-size:none;
   }
 
   .section-items {
@@ -383,6 +377,9 @@
     display: block;
   }
 
+  .card-items {
+    grid-template-columns: none;
+  }
   .section-items_container-text {
     padding-bottom: 18px;
   }
